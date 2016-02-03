@@ -1,0 +1,472 @@
+
+html { 
+ }
+.inner-wrap {
+
+}
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('/arthistory/fonts/AvenirNext-BoldItalic.eot?#iefix') format('embedded-opentype'),  url('/arthistory/fonts/AvenirNext-BoldItalic.woff') format('woff'), url('/arthistory/fonts/AvenirNext-BoldItalic.ttf')  format('truetype'), url('/arthistory/fonts/AvenirNext-BoldItalic.svg#AvenirNext-BoldItalic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('/arthistory/fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),  url('/arthistory/fonts/AvenirNext-Bold.woff') format('woff'), url('/arthistory/fonts/AvenirNext-Bold.ttf')  format('truetype'), url('/arthistory/fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('/arthistory/fonts/AvenirNext-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),  url('/arthistory/fonts/AvenirNext-DemiBoldItalic.woff') format('woff'), url('/arthistory/fonts/AvenirNext-DemiBoldItalic.ttf')  format('truetype'), url('/arthistory/fonts/AvenirNext-DemiBoldItalic.svg#AvenirNext-DemiBoldItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('/arthistory/fonts/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),  url('/arthistory/fonts/AvenirNext-DemiBold.woff') format('woff'), url('/arthistory/fonts/AvenirNext-DemiBold.ttf')  format('truetype'), url('/arthistory/fonts/AvenirNext-DemiBold.svg#AvenirNext-DemiBold') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('/arthistory/fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),  url('/arthistory/fonts/AvenirNext-Regular.woff') format('woff'), url('/arthistory/fonts/AvenirNext-Regular.ttf')  format('truetype'), url('/arthistory/fonts/AvenirNext-Regular.svg#AvenirNext-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('/arthistory/fonts/AvenirNext-Italic.eot?#iefix') format('embedded-opentype'),  url('/arthistory/fonts/AvenirNext-Italic.woff') format('woff'), url('/arthistory/fonts/AvenirNext-Italic.ttf')  format('truetype'), url('/arthistory/fonts/AvenirNext-Italic.svg#AvenirNext-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+/* mail chimp */
+#mc_embed_signup form {display:block;position:relative;text-align:left;padding:10px 0 10px 3%} #mc_embed_signup h2 {font-weight:bold;padding:0;margin:15px 0;font-size:1.4em;} #mc_embed_signup input {border:1px solid #999;-webkit-appearance:none;} #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;} #mc_embed_signup input[type=radio]{-webkit-appearance:radio;} #mc_embed_signup input:focus {border-color:#333;} #mc_embed_signup .button {clear:both;background-color: #aaa;border: 0 none;border-radius:4px;color: #FFFFFF;cursor: pointer;display: inline-block;font-size:15px;font-weight: bold;height: 32px;line-height: 32px;margin: 0 5px 10px 0;padding:0;text-align: center;text-decoration: none;vertical-align: top;white-space: nowrap;width: auto;} #mc_embed_signup .button:hover {background-color:#777;} #mc_embed_signup .small-meta {font-size: 11px;} #mc_embed_signup .nowrap {white-space:nowrap;} #mc_embed_signup .clear {clear:none;display:inline;} #mc_embed_signup label {display:block;font-size:16px;padding-bottom:10px;font-weight:bold;} #mc_embed_signup input.email {display:block;padding:8px 0;margin:0 4% 10px 0;text-indent:5px;width:58%;min-width:130px;} #mc_embed_signup input.button {display:block;width:35%;margin:0 0 10px 0;min-width:90px;} #mc_embed_signup div#mce-responses {float:left;top:-1.4em;padding:0em .5em 0em .5em;overflow:hidden;width:90%;margin: 0 5%;clear: both;} #mc_embed_signup div.response {margin:1em 0;padding:1em .5em .5em 0;font-weight:bold;float:left;top:-1.5em;z-index:1;width:80%;} #mc_embed_signup #mce-error-response {display:none;} #mc_embed_signup #mce-success-response {color:#529214;display:none;} #mc_embed_signup label.error {display:block;float:none;width:auto;margin-left:1.05em;text-align:left;padding:.5em 0;}
+
+/* O'Donnell Institute */
+*, h1, h2, h3, h4, h5, h6 { 
+	font-family: "Avenir Next", "Avenir Next Regular", "Avenir", "Avenir Regular", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+}
+h2 { font-size: 1.75rem;
+	padding: 0.24em 0;
+	font-weight: 600;
+}
+h3 {
+	font-size:1.678rem;
+	font-weight: 600;
+}
+h2.subheader {
+	font-size: 1.32rem;
+	line-height: 1.9rem;
+	padding-bottom: 1.32rem;
+}
+figcaption, .subheader, figcaption span, figcaption a {
+	font-family: "leitura-news",serif;
+	font-style: italic;
+	font-weight: 400;
+}
+figcaption {
+	padding-top:0.9rem;
+	padding-bottom: 1.1rem;
+}
+p { font-size: 1.18rem;}
+p strong { 
+	font-weight: 600;
+}
+a {
+	color: #EB7B1F;
+}
+a:hover {
+	color: #DE641F
+}
+.panel.panel-green {
+	background: #93C83A;
+	border: none;
+}
+.panel.panel-green p { 
+	font-family: "leitura-news",serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size:1rem;
+	line-height: 1rem;
+}
+.panel.panel-green * {
+	color: #fff;
+	text-align: center;
+}
+/* tablet header */
+#tablet-header {
+	padding-top: 25px;
+}
+
+/* mobile nav */
+#mobile-nav {
+	padding-top: 1.45rem
+}
+#mobile-nav nav {
+	border-top:1px solid #7d7d7d;
+	border-bottom:1px solid #7d7d7d;
+	padding-top: .45rem;
+	margin-top: .45rem;
+	margin-bottom: .75rem;
+}
+#mobile-nav nav ul, #mobile-nav nav li { list-style: none;
+	margin-left: 0;
+}
+#mobile-nav nav a, #mobile-nav footer a { 
+	color: #fff !important;
+}
+#mobile-nav nav a:hover { 
+color: #93C83A !important;
+}
+#mobile-nav nav li {
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+}
+#mobile-nav nav li li {
+	font-weight: 300;
+	font-size: 0.88rem;
+	line-height: 1.75rem;
+}
+#mobile-nav { 
+	color: rgba(255,255,255, .68);
+}
+#mobile-nav footer {
+	font-size: 0.85rem; 
+}
+
+aside#mobile-nav ul li a:hover {
+	color: #EB7B1F;
+}
+
+
+/* tablet nav + */
+nav#tablet-nav {
+	margin: 0 auto;
+	text-align: center;
+}
+nav#tablet-nav ul.button-group li a {
+	background: #f2f2ef;
+	color: rgba(0,0,0, .68);
+	font-family: "Avenir Next", "Avenir Next Regular", "Avenir", "Avenir Regular", sans-serif;
+	font-weight: 500;
+}
+nav#tablet-nav ul.button-group ul {
+	}
+nav#tablet-nav div {
+	text-align: left;
+	padding: .45rem 0 0 0;
+}
+nav#tablet-nav ul.button-group li { 
+	list-style-type: none;
+	text-align: left;
+}
+.f-dropdown {
+	outline: none;
+	
+}
+nav#tablet-nav ul.button-group li a[aria-expanded=true], nav#tablet-nav ul.button-group li a:hover {
+	color: #EB7B1F;
+}
+
+/* button groups */
+.filters-button-group {
+	background: #ECEDED;
+	margin-bottom: 0.454rem;
+}
+.button-group a {
+	font-family: "Avenir Next", "Avenir Next Regular", "Avenir", "Avenir Regular", sans-serif;
+	font-weight: 500;
+	color: #999B9E
+}
+.button-group a.button {
+	background:#DBDCDD; 
+	margin-bottom: .29rem;
+}
+.button-group a:hover.button {
+	background:  #999B9E
+}
+.button-group a.button-selected {
+	background: #FCB61A;
+	color: white
+}
+
+/* figure and citations */
+figure {
+	margin: 1em 0;
+	font-size:.75rem;
+	line-height: 1rem;
+}
+figure.pull-left {
+	width:200px;
+	margin:0 15px 15px 0;
+	float: left;
+	padding: 8px 0 12px 0;
+	border-bottom: 1px solid #c3c3c3
+}
+figure em {
+	font-family: "leitura-news",serif;
+	font-style: italic;
+}
+blockquote {
+	font-family: "leitura-news",serif;
+	font-style: italic;
+	font-weight: 400;
+}
+cite {
+	padding-top: .5rem;
+	font-style: normal;
+	font-size:.75rem;
+	font-family: "leitura-news",serif;
+	font-style: normal;
+	text-align: right;
+	display: block;
+}
+address {
+	font-style: normal;
+	font-size: 80%;
+}
+cite strong {
+	font-family: "leitura-news",serif;
+	font-weight: normal;
+	font-style: 700;
+}
+/* footer */
+footer#main { 
+	background: #f2f2ef;
+	margin-top: 4.2rem;
+	padding-top: 2rem;
+}
+footer#main a {
+	color: #000;
+}
+/* styles */
+section.authors {
+	opacity: .8;
+}
+section.authors p {
+	font-size: 1rem !important;
+}
+.title-callout {
+	padding-top: 9rem;
+	text-align: center;
+}
+
+.button.radius.outline {
+	background: #fff;
+	border:2px solid rgba(70,74,80,0.4);
+	color: rgba(70,74,80,0.8);
+	padding: 0.4625rem 1.05rem 0.56875rem 1.05rem
+}
+
+ul.thumbnail-grid li a {
+	color: rgba(70,74,80,0.8);
+	font-size: .87rem;
+}
+ul.thumbnail-grid li img {
+	margin: .57rem 0;
+}
+ul.thumbnail-grid li {
+	line-height: 1.1rem;
+}
+
+ul.grid {
+	margin-left: 0;
+}
+
+li.research-project { 
+	position: relative;
+	list-style-type: none;
+	
+}
+li.research-project a {
+	color: #fff;
+}
+li.research-project a::before {
+	position: absolute;
+	z-index: 9;
+	display: block;
+	width:100%;
+	bottom: 0;
+	left:0;
+	content:"";
+	height: 88px;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.68) 100%);
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.68) 100%);
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.68) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 );
+}
+li.research-project p {
+	position: absolute;
+	z-index: 99;
+	bottom: 0.67rem;
+	left: 1rem;
+	line-height: 1.2rem;
+	margin-bottom: 0;
+	font-family: "leitura-news",serif;
+	font-style: italic;
+	font-weight: 400;
+
+}
+li.research-project p span {
+	font-size: 0.8125rem;
+	display: block;
+	font-style: normal;
+}
+li.research-project p em {
+	font-family: "leitura-news",serif;
+	font-style: normal;
+}
+
+span.paragraph-lead { font-family: "leitura-news",serif;
+font-style: normal;
+font-weight: 700; 
+opacity: 0.98;
+color: #464A50;
+}
+
+.research-project {
+	width:49.3333%;
+	float: left;
+}
+
+.research-project.tn-portrait {
+	width:49.3333%;
+}
+.research-project.tn-full {
+	width:100%;
+}
+
+.research-project.tn-third {
+	width:32.67%;
+}
+body#home .research-project { 
+	margin-bottom: .33rem;
+	margin-right: .21rem;
+}
+body#home .grid {
+	margin-top: .15rem;
+}
+
+body#home span {
+	height: 4px;
+}
+
+.newsletter-archive li {
+	list-style-type: none;
+}
+@media only screen and (max-width: 40em) { 
+	.small-collapse cite, .small-collapse p, .small-collapse h2, .small-collapse h3, .small-collapse h4, .small-collapse h5, .small-collapse figcaption {
+		padding:1rem;
+	}
+	.small-collapse .research-project p {
+		padding: 0 0.76rem 0 0;
+	}
+	hr {
+		margin-top: .18rem;
+	}
+	body#home .research-project {
+	width:100%;
+	float: left;
+	}
+}
+@media only screen and (max-width: 770px) { 
+	#tablet-nav li a {
+		padding: 8px 15px
+	}
+}
+
+body#home nav#tablet-nav * { 
+	color: #fff;
+	background: none;
+	border:none;
+	text-shadow: 0 0 6px rgba(0,0,0,0.8);
+
+}
+body#home #tablet-header img { 
+	opacity: 1;
+}
+body#home nav#tablet-nav .open, body#home nav#tablet-nav .content {
+	background: #f3f3f3
+}
+body#home h2, body#home h2.subheader {
+	color: #fff;
+	text-shadow: 0 0 6px rgba(0,0,0,0.8);
+}
+body#home h2 {
+	padding-top: 2rem;
+}
+body#home h2.subheader {
+	padding-bottom: 2rem;
+}
+
+body#home nav#tablet-nav .content, body#home nav#tablet-nav a[aria-expanded=true], body#home nav#tablet-nav li:hover  {
+	background: rgba(0,0,0,0.98)
+}
+body#home nav#tablet-nav a:hover { 
+color: #FCB61A;
+
+}
+.postfix {
+	background: #FCB61A;
+}
+.postfix:hover {
+	background: #EB7B1F;
+}
+
+
+.reveal-modal.xlarge {
+	height: 75%
+}
+
+section.authors a {
+	color: rgba(0,0,0,0.97)
+}
+section.authors a:hover {
+	color: #EB7B1F;
+}
+
+#home #slide-montage { 
+	height: 15rem;
+}
+
+#overlay {
+	position: absolute;
+	z-index: 4; 
+	top: 0;
+	width: 100%;
+}
+#montage * {
+	z-index: 1 !important;
+}
+#montage video {
+	background:  url(/arthistory/img/video-placeholder.jpg) no-repeat !important;
+    background-size: cover; 
+}
+#bottom {
+	position: absolute;
+}
+#home #tablet-nav {
+	position: absolute;
+	z-index: 9999999
+	top: 0;
+	width: 100%;
+}
+#home #mobile-nav {
+	height: 100% !important;
+}
+#home header.show-for-small-only {
+	z-index: 9999999;
+	position: absolute;
+	top: 0;
+}
+#home video::-webkit-media-controls, #home video::-webkit-media-controls-enclosure {
+  display:none !important;
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+html { width: 70%;
+	padding-left: 8%;
+	font-size: 60%;
+}
+#mobile-nav, #tablet-nav, section#next, footer {
+	display: none !important;
+}
